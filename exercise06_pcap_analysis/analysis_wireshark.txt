@@ -1,0 +1,33 @@
+Wireshark Traffic Analysis Report
+================================
+
+TCP Connections
+---------------
+Total TCP Connections: 3
+
+DNS Queries
+-----------
+Total DNS Queries: 11
+
+Queried Domains:
+connectivity-check.ubuntu.com
+example.com
+github.com
+google.com
+neverssl.com
+wikipedia.org
+
+Packet Loss
+-----------
+No packet loss detected.
+
+TCP Retransmissions
+-------------------
+Total Retransmissions: 8
+
+Note:
+All retransmissions are SYN retransmissions.
+
+Round Trip Time (RTT)
+---------------------
+Average RTT: 1.768782 seconds

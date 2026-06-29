@@ -1,0 +1,33 @@
+ROUTING ANALYSIS REPORT
+=======================
+
+Routing Table:
+default via 192.168.64.2 dev ens33 proto dhcp src 192.168.64.129 metric 100 
+172.17.0.0/16 dev docker0 proto kernel scope link src 172.17.0.1 linkdown 
+192.168.64.0/24 dev ens33 proto kernel scope link src 192.168.64.129 metric 100 
+192.168.146.0/24 dev ens37 proto kernel scope link src 192.168.146.128 metric 101 
+
+Traceroute to 8.8.8.8:
+traceroute to 8.8.8.8 (8.8.8.8), 30 hops max, 60 byte packets
+ 1  _gateway (192.168.64.2)  0.815 ms  0.714 ms *
+ 2  172.20.178.4 (172.20.178.4)  6.132 ms * *
+ 3  * * *
+ 4  * * *
+ 5  192.168.1.2 (192.168.1.2)  5.940 ms * *
+ 6  194.225.26.1 (194.225.26.1)  6.983 ms * *
+ 7  94-182-198-217.shatel.ir (94.182.198.217)  4.483 ms * *
+ 8  * * *
+ 9  * * *
+10  * * *
+11  * * *
+12  * * *
+13  10.201.177.221 (10.201.177.221)  8.434 ms  10.772 ms  9.774 ms
+14  10.21.212.10 (10.21.212.10)  9.132 ms  8.713 ms  8.200 ms
+15  134.0.220.186 (134.0.220.186)  39.016 ms  38.495 ms  38.103 ms
+16  213.202.5.239 (213.202.5.239)  38.470 ms  38.051 ms  38.944 ms
+17  216.239.48.133 (216.239.48.133)  38.515 ms  42.036 ms  41.324 ms
+18  142.250.56.167 (142.250.56.167)  37.737 ms  36.784 ms  36.141 ms
+19  dns.google (8.8.8.8)  35.694 ms  35.015 ms  37.673 ms
+
+Router Explanation:
+A router forwards packets between networks and selects the best route to a destination.

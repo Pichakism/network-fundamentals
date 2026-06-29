@@ -2,8 +2,8 @@
 
 REPORT="analysis_wireshark.txt"
 
-HTTP_PCAP="../exercise06_pcap_analysis/http_capture.pcap"
-DNS_PCAP="../exercise06_pcap_analysis/dns_capture.pcap"
+HTTP_PCAP="../exercise05_tcpdump/http_capture.pcap"
+DNS_PCAP="../exercise05_tcpdump/dns_capture.pcap"
 
 echo "Wireshark Traffic Analysis Report" > $REPORT
 echo "================================" >> $REPORT

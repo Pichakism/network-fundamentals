@@ -1,0 +1,20 @@
+==========
+HTTP TEST
+==========
+Trying 216.239.38.120...
+Connected to google.com.
+Escape character is '^]'.
+
+=========
+SSH TEST
+=========
+Trying 140.82.121.4...
+Connected to github.com.
+Escape character is '^]'.
+
+===========
+MYSQL TEST
+===========
+Trying 127.0.0.1...
+Connected to 127.0.0.1.
+Escape character is '^]'.
